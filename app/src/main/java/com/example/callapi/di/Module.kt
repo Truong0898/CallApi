@@ -28,7 +28,7 @@ fun provideRetrofit(): Retrofit {
 
 interface ListAPIService {
     @Headers("Accept: application/json")
-    @GET("9f84d8c9-6c66-448b-84d0-146d8c75e9fc")
+    @GET("entries")
     suspend fun getAPI(): API
 }
 
